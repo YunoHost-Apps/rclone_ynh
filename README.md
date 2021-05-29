@@ -56,7 +56,7 @@ Explain in *a few (10~15) words* the purpose of the app or what it actually does
 * Official app website: https://example.com
 * Official user documentation: https://yunohost.org/apps
 * Official admin documentation: https://yunohost.org/packaging_apps
-* Upstream app code repository:  https://some.forge.com/example/example
+* Upstream app code repository: https://some.forge.com/example/example
 * YunoHost documentation for this app: https://yunohost.org/app_example
 * Report a bug: https://github.com/YunoHost-Apps/example_ynh/issues
 
