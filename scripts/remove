@@ -18,9 +18,9 @@ if ynh_exec_warn_less yunohost service status "$app" >/dev/null; then
     yunohost service remove "$app"
 fi
 
-ynh_remove_fail2ban_config
+#ynh_remove_fail2ban_config
 
-ynh_remove_logrotate
+#ynh_remove_logrotate
 
 ynh_remove_systemd_config
 
