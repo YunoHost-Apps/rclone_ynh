@@ -20,8 +20,6 @@ No se debe editar a mano.
 
 **Versión actual:** 1.0~ynh1
 
-**Demo:** <https://demo.example.com>
-
 ## Capturas
 
 ![Captura de rclone](./doc/screenshots/example.jpg)
@@ -43,10 +41,9 @@ No se debe editar a mano.
 
 ## Documentaciones y recursos
 
-- Sitio web oficial: <https://example.com>
-- Documentación usuario oficial: <https://yunohost.org/apps>
-- Documentación administrador oficial: <https://yunohost.org/packaging_apps>
-- Repositorio del código fuente oficial de la aplicación : <https://some.forge.com/example/example>
+- Sitio web oficial: <https://rclone.org/>
+- Documentación usuario oficial: <https://rclone.org/docs/>
+- Repositorio del código fuente oficial de la aplicación : <https://github.com/rclone/rclone>
 - Catálogo YunoHost: <https://apps.yunohost.org/app/rclone>
 - Reportar un error: <https://github.com/YunoHost-Apps/rclone_ynh/issues>
 
