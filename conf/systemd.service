@@ -11,14 +11,7 @@ Group=__APP__
 Type=notify
 ExecStartPre=-/usr/bin/mkdir -p %h/mnt/%i
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart= __INSTALL_DIR__/rclone mount #--config=%h/.config/rclone/rclone.conf \
-    #--vfs-cache-mode writes \
-    #--vfs-cache-max-size 100M \
-    #--log-level INFO \
-    #--log-file /tmp/rclone-%i.log \
-    #--umask 022 \
-    #--allow-other \
-    #%i: %h/mnt/%i
+ExecStart= __INSTALL_DIR__/rclone mount --config=%h/.config/rclone/rclone.conf --vfs-cache-mode writes --vfs-cache-max-size 100M --log-level INFO --log-file /tmp/rclone-%i.log --umask 022 --allow-other %i: %h/mnt/%i
 ExecStop=/bin/fusermount -u %h/mnt/%i
 
 [Install]
