@@ -12,7 +12,7 @@ version = "1.0~ynh1"
 maintainers = []
 
 [upstream]
-license = "free" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
+license = "free"
 website = "https://example.com"
 demo = "https://demo.example.com"
 admindoc = "https://yunohost.org/packaging_apps"
@@ -28,7 +28,6 @@ ldap = false
 
 sso = false
 
-# FIXME: replace with an **estimate** minimum disk and RAM requirements. e.g. 20M, 400M, 1G...
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
