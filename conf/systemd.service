@@ -5,6 +5,10 @@ After=network-online.target
 Wants=network-online.target
 
 [Service]
+Type=simple
+User=__APP__
+Group=__APP__
+WorkingDirectory=__INSTALL_DIR__/
 Type=notify
 ExecStartPre=-/usr/bin/mkdir -p %h/mnt/%i
 ExecStart= \
