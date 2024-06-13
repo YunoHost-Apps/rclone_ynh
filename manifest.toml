@@ -12,12 +12,10 @@ version = "1.0~ynh1"
 maintainers = []
 
 [upstream]
-license = "free"
-website = "https://example.com"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
-code = "https://some.forge.com/example/example"
+license = "MIT"
+website = "https://rclone.org/"
+userdoc = "https://rclone.org/docs/"
+code = "https://github.com/rclone/rclone"
 
 [integration]
 yunohost = ">= 11.2"
@@ -65,7 +63,7 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     url = "https://downloads.rclone.org/rclone-current-linux-amd64.zip"
-    sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    sha256 = "b4d304b1dc76001b1d3bb820ae8d1ae60a072afbd3296be904a3ee00b3d4fab9"
 
     [resources.system_user]
 
