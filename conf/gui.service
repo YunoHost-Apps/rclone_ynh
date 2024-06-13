@@ -1,0 +1,15 @@
+[Unit]
+Description=rclone GUI
+After=networking.service
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+WorkingDirectory=__INSTALL_DIR__/
+ExecStart=rclone rcd --rc-web-gui --rc-addr 127.0.0.1:__PORT__ --rc-user __ADMIN__ --rc-pass __PASSWORD__ --rc-web-gui-no-open-browser
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
