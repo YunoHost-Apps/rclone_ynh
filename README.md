@@ -20,8 +20,6 @@ Explain in *a few (10~15) words* the purpose of the app or what it actually does
 
 **Shipped version:** 1.0~ynh1
 
-**Demo:** <https://demo.example.com>
-
 ## Screenshots
 
 ![Screenshot of rclone](./doc/screenshots/example.jpg)
@@ -43,10 +41,9 @@ Explain in *a few (10~15) words* the purpose of the app or what it actually does
 
 ## Documentation and resources
 
-- Official app website: <https://example.com>
-- Official user documentation: <https://yunohost.org/apps>
-- Official admin documentation: <https://yunohost.org/packaging_apps>
-- Upstream app code repository: <https://some.forge.com/example/example>
+- Official app website: <https://rclone.org/>
+- Official user documentation: <https://rclone.org/docs/>
+- Upstream app code repository: <https://github.com/rclone/rclone>
 - YunoHost Store: <https://apps.yunohost.org/app/rclone>
 - Report a bug: <https://github.com/YunoHost-Apps/rclone_ynh/issues>
 

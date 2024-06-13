@@ -20,8 +20,6 @@
 
 **分发版本：** 1.0~ynh1
 
-**演示：** <https://demo.example.com>
-
 ## 截图
 
 ![rclone 的截图](./doc/screenshots/example.jpg)
@@ -43,10 +41,9 @@
 
 ## 文档与资源
 
-- 官方应用网站： <https://example.com>
-- 官方用户文档： <https://yunohost.org/apps>
-- 官方管理文档： <https://yunohost.org/packaging_apps>
-- 上游应用代码库： <https://some.forge.com/example/example>
+- 官方应用网站： <https://rclone.org/>
+- 官方用户文档： <https://rclone.org/docs/>
+- 上游应用代码库： <https://github.com/rclone/rclone>
 - YunoHost 商店： <https://apps.yunohost.org/app/rclone>
 - 报告 bug： <https://github.com/YunoHost-Apps/rclone_ynh/issues>
 

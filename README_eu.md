@@ -20,8 +20,6 @@ EZ editatu eskuz.
 
 **Paketatutako bertsioa:** 1.0~ynh1
 
-**Demoa:** <https://demo.example.com>
-
 ## Pantaila-argazkiak
 
 ![rclone(r)en pantaila-argazkia](./doc/screenshots/example.jpg)
@@ -43,10 +41,9 @@ EZ editatu eskuz.
 
 ## Dokumentazioa eta baliabideak
 
-- Aplikazioaren webgune ofiziala: <https://example.com>
-- Erabiltzaileen dokumentazio ofiziala: <https://yunohost.org/apps>
-- Administratzaileen dokumentazio ofiziala: <https://yunohost.org/packaging_apps>
-- Jatorrizko aplikazioaren kode-gordailua: <https://some.forge.com/example/example>
+- Aplikazioaren webgune ofiziala: <https://rclone.org/>
+- Erabiltzaileen dokumentazio ofiziala: <https://rclone.org/docs/>
+- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/rclone/rclone>
 - YunoHost Denda: <https://apps.yunohost.org/app/rclone>
 - Eman errore baten berri: <https://github.com/YunoHost-Apps/rclone_ynh/issues>
 
