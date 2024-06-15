@@ -16,7 +16,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Rclone is a command-line program to manage files on cloud storage. It is a feature-rich alternative to cloud vendors' web storage interfaces. Over 70 cloud storage products support rclone including S3 object stores, business & consumer file storage services, as well as standard transfer protocols.
+Rclone est un programme en ligne de commande permettant de gérer des fichiers sur le stockage cloud. Il s'agit d'une alternative riche en fonctionnalités aux interfaces de stockage Web des fournisseurs de cloud. Plus de 70 produits de stockage cloud prennent en charge rclone, notamment les magasins d'objets S3, les services de stockage de fichiers professionnels et grand public, ainsi que les protocoles de transfert standard.
 
 **Version incluse :** 1.67.0~ynh1
 
