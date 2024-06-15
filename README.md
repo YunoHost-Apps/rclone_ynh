@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)
 
-**Shipped version:** 1.0~ynh1
+**Shipped version:** 1.67.0~ynh1
 
 ## Screenshots
 
