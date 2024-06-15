@@ -3,41 +3,26 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# rclone para Yunohost
+# Rclone para Yunohost
 
 [![Nivel de integración](https://dash.yunohost.org/integration/rclone.svg)](https://dash.yunohost.org/appci/app/rclone) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
 
-[![Instalar rclone con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
+[![Instalar Rclone con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
 
 *[Leer este README en otros idiomas.](./ALL_README.md)*
 
-> *Este paquete le permite instalarrclone rapidamente y simplement en un servidor YunoHost.*  
+> *Este paquete le permite instalarRclone rapidamente y simplement en un servidor YunoHost.*  
 > *Si no tiene YunoHost, visita [the guide](https://yunohost.org/install) para aprender como instalarla.*
 
 ## Descripción general
 
-
+Rclone is a command-line program to manage files on cloud storage. It is a feature-rich alternative to cloud vendors' web storage interfaces. Over 70 cloud storage products support rclone including S3 object stores, business & consumer file storage services, as well as standard transfer protocols.
 
 **Versión actual:** 1.67.0~ynh1
 
 ## Capturas
 
-![Captura de rclone](./doc/screenshots/example.jpg)
-
-## informaciones importantes
-
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
-
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
+![Captura de Rclone](./doc/screenshots/example.jpg)
 
 ## Documentaciones y recursos
 
