@@ -23,9 +23,6 @@ ynh_backup --src_path="$install_dir"
 # SYSTEM CONFIGURATION
 #=================================================
 
-# Backup the PHP-FPM configuration
-ynh_backup --src_path="/etc/php/$phpversion/fpm/pool.d/$app.conf"
-
 # Backup the nginx configuration
 ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 
