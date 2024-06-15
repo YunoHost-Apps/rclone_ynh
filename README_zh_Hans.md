@@ -3,41 +3,26 @@
 请勿手动编辑。
 -->
 
-# YunoHost 上的 rclone
+# YunoHost 上的 Rclone
 
 [![集成程度](https://dash.yunohost.org/integration/rclone.svg)](https://dash.yunohost.org/appci/app/rclone) ![工作状态](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
 
-[![使用 YunoHost 安装 rclone](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
+[![使用 YunoHost 安装 Rclone](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
 
 *[阅读此 README 的其它语言版本。](./ALL_README.md)*
 
-> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 rclone。*  
+> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 Rclone。*  
 > *如果您还没有 YunoHost，请参阅[指南](https://yunohost.org/install)了解如何安装它。*
 
 ## 概况
 
-
+Rclone is a command-line program to manage files on cloud storage. It is a feature-rich alternative to cloud vendors' web storage interfaces. Over 70 cloud storage products support rclone including S3 object stores, business & consumer file storage services, as well as standard transfer protocols.
 
 **分发版本：** 1.67.0~ynh1
 
 ## 截图
 
-![rclone 的截图](./doc/screenshots/example.jpg)
-
-## 免责声明 / 重要信息
-
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
-
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
+![Rclone 的截图](./doc/screenshots/example.jpg)
 
 ## 文档与资源
 
