@@ -32,13 +32,6 @@ ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 # Backup the systemd service unit
 ynh_backup --src_path="/etc/systemd/system/$app.service"
 
-# Backup the logrotate configuration
-#ynh_backup --src_path="/etc/logrotate.d/$app"
-
-# Backup the Fail2Ban config
-#ynh_backup --src_path="/etc/fail2ban/jail.d/$app.conf"
-#ynh_backup --src_path="/etc/fail2ban/filter.d/$app.conf"
-
 #=================================================
 # END OF SCRIPT
 #=================================================
