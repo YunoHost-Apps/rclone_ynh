@@ -22,7 +22,7 @@ Rclone est un programme en ligne de commande permettant de gérer des fichiers s
 
 ## Captures d’écran
 
-![Capture d’écran de Rclone](./doc/screenshots/example.jpg)
+![Capture d’écran de Rclone](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 

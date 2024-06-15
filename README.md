@@ -22,7 +22,7 @@ Rclone is a command-line program to manage files on cloud storage. It is a featu
 
 ## Screenshots
 
-![Screenshot of Rclone](./doc/screenshots/example.jpg)
+![Screenshot of Rclone](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 
