@@ -1,0 +1,77 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "rclone"
+name = "Rclone"
+description.en = "Web UI for Rclone"
+description.fr = "Interface utilisateur Web pour Rclone"
+
+version = "1.67.0~ynh1"
+
+maintainers = []
+
+[upstream]
+license = "MIT"
+website = "https://rclone.org/"
+userdoc = "https://rclone.org/docs/"
+code = "https://github.com/rclone/rclone"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    help.en = "Use the help field to add an information for the admin about this question."
+    help.fr = "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+    type = "password"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    amd64.url = "https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-linux-amd64.zip"
+    amd64.sha256 = "07c23d21a94d70113d949253478e13261c54d14d72023bb14d96a8da5f3e7722"
+    arm64.url = "https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-linux-arm64.zip"
+    arm64.sha256 = "2b44981a1a7d1f432c53c0f2f0b6bcdd410f6491c47dc55428fdac0b85c763f1"
+    armhf.url = "https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-linux-arm-v7.zip"
+    armhf.sha256 = "b6d0f1d60596d87349f81aff517a1c340b16e68a68d72fbb568307a8a8e0a7e8"
+    i386.url = "https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-linux-386.zip"
+    i386.sha256 = "d4284fe74349d67fb89076845ce27d80a378d35b76622a57e32581ea1226859f"
+
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.amd64 = ".*-linux-amd64.zip"
+    autoupdate.asset.arm64 = ".*-linux-arm64.zip"
+    autoupdate.asset.i386 = ".*-linux-386.zip"
+    autoupdate.asset.armhf = ".*-linux-arm.zip"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+     main.default = 5572
