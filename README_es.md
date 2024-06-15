@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 
 
-**Versión actual:** 1.0~ynh1
+**Versión actual:** 1.67.0~ynh1
 
 ## Capturas
 

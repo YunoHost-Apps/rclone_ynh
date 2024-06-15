@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 
 
-**Versión proporcionada:** 1.0~ynh1
+**Versión proporcionada:** 1.67.0~ynh1
 
 ## Capturas de pantalla
 
