@@ -20,7 +20,7 @@ code = "https://github.com/rclone/rclone"
 [integration]
 yunohost = ">= 11.2"
 architectures = "all"
-multi_instance = true
+multi_instance = false
 
 ldap = false
 
@@ -33,6 +33,10 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/rclone"
 
     [install.init_main_permission]
     type = "group"
