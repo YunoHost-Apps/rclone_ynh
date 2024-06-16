@@ -20,15 +20,6 @@ chown -R $app:www-data "$install_dir"
 chmod +x "$install_dir/rclone"
 
 #=================================================
-# RESTORE THE DATA DIRECTORY
-#=================================================
-ynh_script_progression --message="Restoring the data directory..." --weight=1
-
-ynh_restore_file --origin_path="$data_dir" --not_mandatory
-
-chown -R "$app:www-data" "$data_dir"
-
-#=================================================
 # RESTORE SYSTEM CONFIGURATIONS
 #=================================================
 ynh_script_progression --message="Restoring system configurations related to $app..." --weight=1
