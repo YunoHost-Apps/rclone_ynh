@@ -6,7 +6,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/rclone rcd --rc-web-gui --rc-addr=127.0.0.1:__PORT__ --rc-user __ADMIN__ --rc-pass __PASSWORD__ --rc-web-gui-update
+ExecStart=__INSTALL_DIR__/rclone rcd --rc-web-gui --rc-addr=127.0.0.1:__PORT__ --rc-user __ADMIN__ --rc-pass __PASSWORD__ --rc-web-gui-update --config __DATA_DIR__/
 
 [Install]
 WantedBy=default.target
