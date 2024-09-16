@@ -6,7 +6,9 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=/bin/sh -c "__INSTALL_DIR__/rclone rcd --rc-web-gui --rc-addr 127.0.0.1:__PORT__ --rc-user __ADMIN__ --rc-pass __PASSWORD__ --rc-web-gui-update --rc-web-gui-no-open-browser; exit 0;"
+ExecStart=__INSTALL_DIR__/rclone rcd --rc-web-gui --rc-addr 127.0.0.1:__PORT__ --rc-user __ADMIN__ --rc-pass __PASSWORD__ --rc-web-gui-update --rc-web-gui-no-open-browser
+RestartSec=2s
+Restart=always
 
 [Install]
 WantedBy=default.target
