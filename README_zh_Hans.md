@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Rclone
 
-[![集成程度](https://dash.yunohost.org/integration/rclone.svg)](https://dash.yunohost.org/appci/app/rclone) ![工作状态](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/rclone.svg)](https://ci-apps.yunohost.org/ci/apps/rclone/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
 
 [![使用 YunoHost 安装 Rclone](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
 
