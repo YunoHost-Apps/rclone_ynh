@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Rclone untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/rclone.svg)](https://ci-apps.yunohost.org/ci/apps/rclone/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/rclone)](https://ci-apps.yunohost.org/ci/apps/rclone/)
+![Status kerja](https://apps.yunohost.org/badge/state/rclone)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/rclone)
 
 [![Pasang Rclone dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
 

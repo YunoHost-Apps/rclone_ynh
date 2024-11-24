@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Rclone para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/rclone.svg)](https://ci-apps.yunohost.org/ci/apps/rclone/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/rclone)](https://ci-apps.yunohost.org/ci/apps/rclone/)
+![Estado funcional](https://apps.yunohost.org/badge/state/rclone)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/rclone)
 
 [![Instalar Rclone con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
 
