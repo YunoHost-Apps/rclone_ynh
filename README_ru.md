@@ -5,7 +5,9 @@
 
 # Rclone для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/rclone.svg)](https://ci-apps.yunohost.org/ci/apps/rclone/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/rclone)](https://ci-apps.yunohost.org/ci/apps/rclone/)
+![Состояние работы](https://apps.yunohost.org/badge/state/rclone)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/rclone)
 
 [![Установите Rclone с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
 

@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Rclone YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/rclone.svg)](https://ci-apps.yunohost.org/ci/apps/rclone/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/rclone)](https://ci-apps.yunohost.org/ci/apps/rclone/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/rclone)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/rclone)
 
 [![Instalatu Rclone YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
 
