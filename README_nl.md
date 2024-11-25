@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Rclone voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/rclone.svg)](https://ci-apps.yunohost.org/ci/apps/rclone/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/rclone)](https://ci-apps.yunohost.org/ci/apps/rclone/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/rclone)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/rclone)
 
 [![Rclone met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
 
@@ -18,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 Rclone is a command-line program to manage files on cloud storage. It is a feature-rich alternative to cloud vendors' web storage interfaces. Over 70 cloud storage products support rclone including S3 object stores, business & consumer file storage services, as well as standard transfer protocols.
 
-**Geleverde versie:** 1.68.2~ynh1
+**Geleverde versie:** 1.68.2~ynh2
 
 ## Schermafdrukken
 

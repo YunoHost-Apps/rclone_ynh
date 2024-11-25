@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Rclone para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/rclone.svg)](https://ci-apps.yunohost.org/ci/apps/rclone/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/rclone.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/rclone.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/rclone)](https://ci-apps.yunohost.org/ci/apps/rclone/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/rclone)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/rclone)
 
 [![Instalar Rclone con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rclone)
 
@@ -18,7 +20,7 @@ NON debe editarse manualmente.
 
 Rclone is a command-line program to manage files on cloud storage. It is a feature-rich alternative to cloud vendors' web storage interfaces. Over 70 cloud storage products support rclone including S3 object stores, business & consumer file storage services, as well as standard transfer protocols.
 
-**Versión proporcionada:** 1.68.2~ynh1
+**Versión proporcionada:** 1.68.2~ynh2
 
 ## Capturas de pantalla
 
