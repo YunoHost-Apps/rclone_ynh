@@ -38,7 +38,7 @@ Rclone is a command-line program to manage files on cloud storage. It is a featu
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/rclone_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/rclone_ynh/tree/testing --debug

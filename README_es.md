@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Rclone para Yunohost
+# Rclone para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/rclone)](https://ci-apps.yunohost.org/ci/apps/rclone/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/rclone)
