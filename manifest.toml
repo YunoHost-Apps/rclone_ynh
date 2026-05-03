@@ -7,7 +7,7 @@ name = "Rclone"
 description.en = "Web UI for Rclone"
 description.fr = "Interface utilisateur Web pour Rclone"
 
-version = "1.73.4~ynh1"
+version = "1.74.0~ynh1"
 
 maintainers = []
 
@@ -47,14 +47,14 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/rclone/rclone/releases/download/v1.73.4/rclone-v1.73.4-linux-amd64.zip"
-    amd64.sha256 = "abc0e6e0f275a469d94645f7ef92c7c7673eed20b6558acec5ff48b74641213c"
-    arm64.url = "https://github.com/rclone/rclone/releases/download/v1.73.4/rclone-v1.73.4-linux-arm64.zip"
-    arm64.sha256 = "00c9e230f0004ab5e3b45c00edf7238ba5bff5fc7ea80f5a86a7da5568de6d1c"
-    armhf.url = "https://github.com/rclone/rclone/releases/download/v1.73.4/rclone-v1.73.4-linux-arm.zip"
-    armhf.sha256 = "bd42eb6edb1f8d2e42126cedd9ec2b71a6736d8ce38e846c1369d3bf13457391"
-    i386.url = "https://github.com/rclone/rclone/releases/download/v1.73.4/rclone-v1.73.4-linux-386.zip"
-    i386.sha256 = "c5831c180a83345b41952be51aee2ad724a8c8621624dbb953048bd4e36de525"
+    amd64.url = "https://github.com/rclone/rclone/releases/download/v1.74.0/rclone-v1.74.0-linux-amd64.zip"
+    amd64.sha256 = "61de0a78d8776fe3e080f8385ebe96d817f2ee6a6003fe36b2d9f3b49d3e36ea"
+    arm64.url = "https://github.com/rclone/rclone/releases/download/v1.74.0/rclone-v1.74.0-linux-arm64.zip"
+    arm64.sha256 = "c28148f72e82e16953a9f7eedbe610736968240318ff33872f90bfdd689cc72f"
+    armhf.url = "https://github.com/rclone/rclone/releases/download/v1.74.0/rclone-v1.74.0-linux-arm.zip"
+    armhf.sha256 = "679473a02c9f50f8c365a8e703ea29d30e454c1a628c90792234fb1580998b48"
+    i386.url = "https://github.com/rclone/rclone/releases/download/v1.74.0/rclone-v1.74.0-linux-386.zip"
+    i386.sha256 = "98672c590c9055a4a64fd02d49a548abdb905f13aa34679b7aeda983ee2240d0"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = ".*-linux-amd64.zip"
