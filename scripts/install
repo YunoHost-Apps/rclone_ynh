@@ -34,7 +34,7 @@ yunohost service add "$app" --description="Web UI for Rclone" --log="/var/log/$a
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start"  --wait_until="Serving Web GUI"
+ynh_systemctl --service="$app" --action="start"  --wait_until="GUI available at"
 
 #=================================================
 # END OF SCRIPT
