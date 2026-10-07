@@ -16,6 +16,7 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir"
 
 chmod +x "$install_dir/rclone"
+chown -R "$app:$app" "$install_dir"
 
 #=================================================
 # SYSTEM CONFIGURATION
