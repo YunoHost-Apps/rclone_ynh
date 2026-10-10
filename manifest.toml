@@ -7,7 +7,7 @@ name = "Rclone"
 description.en = "Web UI for Rclone"
 description.fr = "Interface utilisateur Web pour Rclone"
 
-version = "1.75.0~ynh1"
+version = "1.75.2~ynh1"
 
 maintainers = []
 
@@ -18,7 +18,7 @@ userdoc = "https://rclone.org/docs/"
 code = "https://github.com/rclone/rclone"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = false
@@ -47,14 +47,14 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/rclone/rclone/releases/download/v1.75.0/rclone-v1.75.0-linux-amd64.zip"
-    amd64.sha256 = "aa2804e08f48250e71009c727124b6341cd0288465804a9a09d14663cabafbaa"
-    arm64.url = "https://github.com/rclone/rclone/releases/download/v1.75.0/rclone-v1.75.0-linux-arm64.zip"
-    arm64.sha256 = "d0ad88ba4c8e285b7c9efa591e0ab643280a91741e13c27f3a9c0957ccfa5203"
-    armhf.url = "https://github.com/rclone/rclone/releases/download/v1.75.0/rclone-v1.75.0-linux-arm.zip"
-    armhf.sha256 = "17f3f07cfa17e065f0c3329149ba702bbaafdb87e7f00230830488d5391362f2"
-    i386.url = "https://github.com/rclone/rclone/releases/download/v1.75.0/rclone-v1.75.0-linux-386.zip"
-    i386.sha256 = "0cd6d0a18cf50004851e23f97dbcad5ebd16047590a704daebfbfe402425aefe"
+    amd64.url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-amd64.zip"
+    amd64.sha256 = "349ac8fba6ff65d6247043f1750cdcb518ec5d500ef91463a10d37c0ccdf3702"
+    arm64.url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm64.zip"
+    arm64.sha256 = "7e1e8d69654941b7b7df84ee74c5f7fb09cce7d5496947fb7bf16b55ff427d10"
+    armhf.url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-arm.zip"
+    armhf.sha256 = "184ca0903eede5f627ed10f5b19c5e087273493285572e289e1561db496fbc98"
+    i386.url = "https://github.com/rclone/rclone/releases/download/v1.75.2/rclone-v1.75.2-linux-386.zip"
+    i386.sha256 = "e7b5274ebb558b4588733bd119a992fb48d77534b4804fc9f7538c87550f3a1d"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = ".*-linux-amd64.zip"
